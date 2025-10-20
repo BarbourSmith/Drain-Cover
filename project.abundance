@@ -1053,78 +1053,7 @@
             },
             {
               "name": "3D shape 2",
-              "ioValue": {
-                "geometry": [
-                  {
-                    "geometry": "move-cut-rotate-fuse-extrude-circle-2.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-loft-circle-5-move-circle-0.05-0-0-0-0-180-0-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0-0-12",
-                    "tags": [],
-                    "bom": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#BABABA",
-                    "dimension": "3D"
-                  },
-                  {
-                    "geometry": "move-extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0-0-12",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#E6F3FF",
-                    "bom": []
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
+              "ioValue": null
             }
           ],
           "unionType": "Assembly"
@@ -1164,57 +1093,11 @@
           "ioValues": [
             {
               "name": "3D shape 2",
-              "ioValue": {
-                "geometry": "extrude-circle-2.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "3D shape 3",
-              "ioValue": {
-                "geometry": "loft-circle-5-move-circle-0.05-0-0-0",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": null
             }
           ],
           "unionType": "Fusion"
@@ -1314,57 +1197,11 @@
           "ioValues": [
             {
               "name": "Shape 1",
-              "ioValue": {
-                "geometry": "rotate-fuse-extrude-circle-2.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-loft-circle-5-move-circle-0.05-0-0-0-0-180-0",
-                "tags": [],
-                "bom": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#BABABA",
-                "dimension": "3D"
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 2",
-              "ioValue": {
-                "geometry": "extrude-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#E6F3FF",
-                "bom": []
-              }
+              "ioValue": null
             }
           ]
         },
@@ -1377,8 +1214,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 4,
-              "currentEquation": "4"
+              "ioValue": 4
             }
           ]
         },
@@ -1566,24 +1402,24 @@
             {
               "atomType": "Input",
               "name": "Min",
-              "x": 0.07755,
-              "y": 0.47,
+              "x": 0.029699999999999997,
+              "y": 0.18,
               "uniqueID": 1720831698120,
               "ioValues": []
             },
             {
               "atomType": "Input",
               "name": "Max",
-              "x": 0.07755,
-              "y": 0.705,
+              "x": 0.029699999999999997,
+              "y": 0.27,
               "uniqueID": 1720831697949,
               "ioValues": []
             },
             {
               "atomType": "Input",
               "name": "Angle",
-              "x": 0.07755,
-              "y": 0.94,
+              "x": 0.029699999999999997,
+              "y": 0.36,
               "uniqueID": 1720831698207,
               "ioValues": []
             },
@@ -1593,12 +1429,7 @@
               "x": 0.17923280423280424,
               "y": 0.5515320334261838,
               "uniqueID": 1720831698280,
-              "ioValues": [
-                {
-                  "name": "diameter",
-                  "ioValue": 10
-                }
-              ]
+              "ioValues": []
             },
             {
               "atomType": "Circle",
@@ -1606,12 +1437,7 @@
               "x": 0.1607142857142857,
               "y": 0.30919220055710306,
               "uniqueID": 1720831698203,
-              "ioValues": [
-                {
-                  "name": "diameter",
-                  "ioValue": 0.1
-                }
-              ]
+              "ioValues": []
             },
             {
               "atomType": "Move",
@@ -1651,57 +1477,11 @@
                 },
                 {
                   "name": "3D shape 1",
-                  "ioValue": {
-                    "geometry": "circle-5",
-                    "dimension": "2D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "3D shape 2",
-                  "ioValue": {
-                    "geometry": "move-circle-0.05-0-0-0",
-                    "dimension": "2D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        4.34
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "closedSelection": 0
@@ -1815,8 +1595,8 @@
             {
               "atomType": "Input",
               "name": "Shape",
-              "x": 0.07755,
-              "y": 0.47,
+              "x": 0.029699999999999997,
+              "y": 0.18,
               "uniqueID": "71b0e311-d954-46e8-a553-496a9a998904",
               "ioValues": [],
               "type": "geometry"
@@ -1854,8 +1634,8 @@
             {
               "atomType": "Input",
               "name": "Radius",
-              "x": 0.07755,
-              "y": 0.705,
+              "x": 0.029699999999999997,
+              "y": 0.27,
               "uniqueID": "e1a3f426-fd5f-4434-ac21-943996098441",
               "ioValues": [],
               "type": "number"
@@ -3415,8 +3195,8 @@
             {
               "atomType": "Input",
               "name": "Shape",
-              "x": 0.07755,
-              "y": 0.47,
+              "x": 0.029699999999999997,
+              "y": 0.18,
               "uniqueID": "aafc1c13-e68b-4a84-b8b0-656ee26581ca",
               "ioValues": [],
               "type": "geometry"
@@ -3454,8 +3234,8 @@
             {
               "atomType": "Input",
               "name": "Radius",
-              "x": 0.07755,
-              "y": 0.705,
+              "x": 0.029699999999999997,
+              "y": 0.27,
               "uniqueID": "edf56db4-eb80-4f47-ad3e-9a5fb580ce80",
               "ioValues": [],
               "type": "number"
